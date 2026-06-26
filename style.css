@@ -1,0 +1,373 @@
+body{
+    margin:0;
+    padding:0;
+    background:#0f172a;
+    color:white;
+    font-family:Arial,sans-serif;
+}
+
+.login-box{
+    width:400px;
+    margin:120px auto;
+    background:#1e293b;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    box-sizing:border-box;
+}
+
+button{
+    padding:12px 25px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    padding:20px;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:10px;
+    width:250px;
+    text-align:center;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    color:black;
+}
+
+table th,
+table td{
+    border:1px solid #ddd;
+    padding:10px;
+}
+
+table th{
+    background:#2563eb;
+    color:white;
+}
+
+h1{
+    text-align:center;
+}
+
+/* Normal Links */
+
+a{
+    color:white;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+
+
+.incident-link{
+    color:black !important;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.incident-link:hover{
+    color:#dc2626 !important;
+    text-decoration:underline;
+}
+
+/* Login button spacing */
+
+.login-box button{
+    margin-top:20px;
+}
+
+/* Register link */
+
+.login-box a{
+    font-size:18px;
+    font-weight:bold;
+    color:#60a5fa;
+
+    text-decoration:none;
+
+    transition:0.3s;
+}
+
+.login-box a:hover{
+
+    color:#2163f3;
+
+    text-decoration:underline;
+
+}
+
+/* INCIDENT PAGE */
+/* INCIDENT DETAILS */
+
+.incident-page{
+
+min-height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+padding:40px;
+
+}
+
+.incident-card{
+
+width:650px;
+
+max-width:100%;
+
+background:#1e293b;
+
+padding:50px;
+
+border-radius:22px;
+
+box-shadow:0 12px 40px rgba(0,0,0,.45);
+
+text-align:center;
+
+}
+
+.incident-card h2{
+
+font-size:36px;
+
+margin-bottom:30px;
+
+}
+
+.incident-card p{
+
+font-size:20px;
+
+margin:18px 0;
+
+}
+
+.incident-card hr{
+
+border:none;
+
+height:1px;
+
+background:#334155;
+
+margin:35px 0;
+
+}
+
+.incident-card ul{
+
+list-style:none;
+
+padding:0;
+
+}
+
+.incident-card li{
+
+background:#0f172a;
+
+padding:16px;
+
+margin-bottom:12px;
+
+border-radius:12px;
+
+text-align:left;
+
+}
+
+.investigation-buttons{
+
+display:flex;
+
+justify-content:center;
+
+gap:20px;
+
+margin-top:40px;
+
+}
+
+.investigation-buttons form{
+
+margin:0;
+
+}
+
+.investigation-buttons a{
+
+margin:0;
+
+}
+
+.investigation-buttons button{
+
+width:220px !important;
+
+padding:16px !important;
+
+border-radius:12px;
+
+font-size:18px;
+
+}
+
+.incident-card h2{
+
+font-size:40px;
+
+margin-bottom:35px;
+
+color:white;
+
+}
+
+.incident-card hr{
+
+border:none;
+
+height:1px;
+
+background:#334155;
+
+margin:28px 0;
+
+}
+
+.incident-card p{
+
+font-size:20px;
+
+line-height:2;
+
+color:#e2e8f0;
+
+}
+
+.incident-card b{
+
+color:#60a5fa;
+
+}
+
+.incident-card h3{
+
+margin-top:35px;
+
+font-size:28px;
+
+color:white;
+
+}
+
+.incident-card ul{
+
+padding:0;
+
+list-style:none;
+
+margin-top:25px;
+
+}
+
+.incident-card li{
+
+background:#0f172a;
+
+padding:16px;
+
+margin-bottom:14px;
+
+border-radius:12px;
+
+border-left:5px solid #2563eb;
+
+font-size:18px;
+
+text-align:left;
+
+}
+
+/* BUTTONS INSIDE INVESTIGATION */
+
+.investigation-buttons{
+
+display:flex;
+
+justify-content:center;
+
+gap:20px;
+
+margin-top:35px;
+
+}
+
+.investigation-buttons a{
+
+text-decoration:none;
+
+margin:0;
+
+}
+
+.investigation-buttons button{
+
+width:220px;
+
+padding:15px;
+
+font-size:18px;
+
+border:none;
+
+border-radius:12px;
+
+cursor:pointer;
+
+background:#2563eb;
+
+color:white;
+
+}
+
+.investigation-buttons button:hover{
+
+background:#1d4ed8;
+
+}
